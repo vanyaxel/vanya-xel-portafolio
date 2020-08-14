@@ -1,0 +1,12 @@
+.text-about-me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 65vh;
+    margin: 0% 15%;
+    justify-content: center;
+}
+
+.text-about-me p{
+    text-align: center;
+}

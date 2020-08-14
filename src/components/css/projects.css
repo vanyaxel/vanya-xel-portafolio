@@ -1,0 +1,55 @@
+.project-all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 65vh;
+    margin: 0 50px;
+}
+
+.project-container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+
+.project-container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+.container-text-project{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-text-project2{
+    display: flex;
+    align-items: flex-end;
+}
+
+.text-header-project{
+    margin: 0;
+    padding: 0 3px;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.num{
+    font-size: 30px;
+    position: relative;
+    top: -4px;
+}
+
+.num2{
+    font-size: 30px;
+    position: relative;
+    top: 4px;
+}

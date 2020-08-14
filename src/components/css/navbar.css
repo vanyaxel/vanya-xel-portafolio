@@ -1,0 +1,31 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    height: 15vh;
+}
+
+.box-btn{
+    margin: 4%;
+}
+
+.btn-menu{
+    background-color: transparent;
+    border-style: none;
+}
+
+.text-btn-menu{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.text-btn-menu2{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}

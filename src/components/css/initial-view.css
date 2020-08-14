@@ -1,0 +1,91 @@
+/* font-family: 'Expletus Sans', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+/* 
+.bck-image{
+    background-image: url('./imagenes/fondo1.png');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bck-image{
+    background-image: url('./imagenes/fondo2.png');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.bck-image{
+    background-image: url('./imagenes/fondo3.png');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+*/
+.bck-image{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('./imagenes/fondo4.png');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+} 
+
+.title-name{
+    color: red;
+    font-family: 'Expletus Sans', cursive;
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 0px;
+    width: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: flex-end;
+    padding-left: 5%;
+}
+
+.fe-title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    width: fit-content;
+    margin: 20px 0px 20px 130px;
+}
+
+.title-name-part1{
+    margin: 0px;
+}
+
+.title-name-part2{
+    margin: 0px 0px 0px 70px;
+    line-height: 60px;
+}
+
+.btn-welcome{
+    background-color: transparent;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 125px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
+    margin: 0px 0px 0px 130px;
+}
+
+.welcome{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+}

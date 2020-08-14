@@ -1,0 +1,33 @@
+.bck-img-general{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('./imagenes/fondo1.png');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.text-title-section{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    margin: 0px;
+    width: fit-content;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.info-text{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    width: fit-content;
+}
+
+.title-container{
+    height: 20vh;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10%;
+}

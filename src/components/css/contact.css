@@ -1,0 +1,46 @@
+.container-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65vh;
+}
+
+.info-text-contact{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    width: fit-content;
+    padding: 0% 3% 0% 1%;
+    margin: 0px;
+}
+
+.line{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width: 90%;
+    margin-top: 2%;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0% 5%;
+}
+
+.img-contact{
+    width: 2.5%;
+}
+
+.text-img{
+    display: contents;
+}
+
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
